@@ -1,14 +1,6 @@
 provider "aws"{
     region="us-east-2"
 }
-terraform {
-  required_providers {
-    aws = {
-      source = "hashicorp/aws"
-      version = "5.70.0"
-    }
-  }
-}
 
 resource "aws_instance" "web" {
   ami           = "ami-09da212cf18033880"
