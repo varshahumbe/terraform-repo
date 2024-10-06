@@ -8,6 +8,6 @@ resource "aws_instance" "one" {
   key_name = "asha"
   vpc_security_group_ids = ["sg-02dc5520d241dfb63"]
   tags = {
-    Name = "terraform-server"
+    Name = "varsha-server"
   }
 }
