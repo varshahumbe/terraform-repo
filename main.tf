@@ -8,6 +8,6 @@ resource "aws_instance" "web" {
   key_name = "module2"
   vpc_security_group_ids = ["sg-02dc5520d241dfb63"]
   tags = {
-    Name = "HelloWorld"
+    Name = "terraform"
   }
 }
