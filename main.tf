@@ -1,11 +1,11 @@
 provider "aws"{
-    region="us-west-1"
+    region="us-east-1"
 }
 
 resource "aws_instance" "one" {
-  ami           = "ami-0cf4e1fcfd8494d5b"
+  ami           = "ami-0c614dee691cbbf37"
   instance_type = "t2.micro"
   tags = {
-    Name = "pipline1-server"
+    Name = "HCP-server"
   }
 }
